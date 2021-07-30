@@ -94,7 +94,7 @@ export default {
     this.loading = true;
     try {
       const res = await axios.get(
-        `http://localhost:8080/api/v1/profile/${this.$route.params.platform}/${this.$route.params.gamertag}`
+        `http://gamer-apex-legends-tracker.herokuapp.com/api/v1/profile/${this.$route.params.platform}/${this.$route.params.gamertag}`
       );
 
       this.profileData = res.data.data;

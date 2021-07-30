@@ -5,7 +5,7 @@ module.exports = {
   devServer: {
     proxy: {
       '/api/v1': {
-        target: 'http://localhost:5000',
+        target: 'https://gamer-apex-legends-tracker.herokuapp.com',
       },
     },
   },

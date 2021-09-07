@@ -8,4 +8,10 @@ To run this locally, first download this github repository, and rename client fo
 Then run "npm i" from both the root folder, as well as seperatley within the "client" folder.
 Then from the root folder, run "npm run dev", and view the app from port 8080.
 
+## Technology Stack
+
+Frontend: VueJS
+Backend: NodeJS + Express
+Other Tools: Axois
+
 <img src='./public/img/capture.jpg' />
